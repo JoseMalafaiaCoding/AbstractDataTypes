@@ -5,7 +5,7 @@ public interface ListInterface {
     public Object get(int position);
     //insert a new node to the list at a calculated position
     public void insert(ListNode node);
-    //remove the first ocurrence of any element
+    //remove the first ocurrence of given position
     public void remove(int position);
     //replace an element at a given position with another element
     public void replace(int position, ListNode node);

@@ -16,6 +16,13 @@ public class ListNode {
         return position % 10;
     }
     
+    @Override
+    public String toString(){
+        String metadata = "";
+        metadata += position;
+        return metadata;
+    }
+    
     public void setPosition(int position){
         this.position = position;
     }

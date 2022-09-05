@@ -1,20 +1,32 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package abstractdatatypes;
+import list.List;
+import list.ListNode;
 
-/**
- *
- * @author Jose
- */
 public class Main {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void main(String []args){
+        List lista1 = new List();
+        lista1.insert(new ListNode(14,new Object()));
+        lista1.insert(new ListNode(15,new Object()));
+        lista1.insert(new ListNode(34,new Object()));
+        lista1.insert(new ListNode(36,new Object()));
+        lista1.insert(new ListNode(35,new Object()));
+        lista1.insert(new ListNode(37,new Object()));
+        lista1.insert(new ListNode(14,new Object()));
+        System.out.println(lista1.toString());
+        System.out.println(lista1.size());
+        lista1.remove(34);
+        System.out.println(lista1.toString());
+        lista1.remove(37);
+        System.out.println(lista1.toString());
+        lista1.remove(14);
+        System.out.println(lista1.toString());
+        lista1.remove(14);
+        System.out.println(lista1.toString());
+        lista1.remove(15);
+        System.out.println(lista1.toString());
+        lista1.insert(new ListNode(37,new Object()));
+        System.out.println(lista1.toString());
+        lista1.remove(36);
+        System.out.println(lista1.toString());
     }
-    
 }
