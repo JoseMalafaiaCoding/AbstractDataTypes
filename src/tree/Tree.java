@@ -7,6 +7,7 @@ public class Tree implements TreeInterface{
     public Tree(){
         size = 0;
         root = null;
+        int x = 2;
     }
     
     public void insertRoot(){
